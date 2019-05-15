@@ -1,0 +1,178 @@
+body{
+	background-color: #82675d;
+}
+div{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#part1, #part2, #part3, #part4, #part5{
+	background-image: url('orel.png');
+	width: 400px;
+	height: 200px;
+}
+#part1{
+	top:55px;
+	left:25px;
+	z-index: 5;
+}
+#part2{
+	top:550px;
+	left:1500px;
+	z-index: 1;
+}
+#part3{
+	top:550px;
+	left:1050px;
+	z-index: 3;
+}
+#part4{
+	top:300px;
+	left:1050px;
+	z-index: 2;
+}
+#part5{
+	top:35px;
+	left:1250px;
+	z-index: 4;
+}
+
+#part1:hover, #part2:hover, #part3:hover, #part4:hover, #part5:hover{
+	z-index:6
+}
+div.tekst{
+	border: solid 2pt blue;
+	border-radius:20px;
+	padding:2%;
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+}
+
+div.url{
+	background-image: url('orel.png');
+	border: solid 5pt red;
+	border-radius:300px;
+	padding:2%;
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	margin-top: 725px;
+	color: white;
+}
+
+div.imagee{
+	background-image: url('orel.png');
+	border: solid 5pt red;
+	border-radius:300px;
+	padding:2%;
+	width: 200px;
+	height: 200px;
+	margin-left: 630px;
+	margin-top: 910px;
+	color: black;
+}
+div.imageee{
+	background-image: url('orel.png');
+	border: solid 5pt red;
+	border-radius:300px;
+	padding:2%;
+	width: 200px;
+	height: 200px;
+	margin-left: 630px;
+	margin-top: 710px;
+	color: black;
+}
+
+div.nothing{
+	background-image: url('orel1.png');
+	border: solid 5pt black;
+	border-radius:300px;
+	padding:2%;
+	width: 200px;
+	height: 200px;
+	margin-left: 5px;
+	margin-top: 500px;
+	color: black;
+}
+
+div.circle{
+	background-image: url('orel1.png');
+	border: solid 5pt black;
+	border-radius:300px;
+	padding:6%;
+	width: 200px;
+	height: 200px;
+	margin-left: 225px;
+	margin-top: 500px;
+	color: black;
+}
+div.uul1{
+	background-image: url('orel.png');
+	border: solid 5pt black;
+	border-radius:300px;
+	padding:6%;
+	width: 200px;
+	height: 200px;
+	margin-left: 425px;
+	margin-top: 500px;
+	color: black;
+}
+div.uul2{
+	background-image: url('orel.png');
+	border: solid 5pt black;
+	border-radius:300px;
+	padding:6%;
+	width: 200px;
+	height: 200px;
+	margin-left: 625px;
+	margin-top: 500px;
+	color: black;
+}
+div.uul3{
+	background-image: url('orel1.png');
+	border: solid 5pt black;
+	border-radius:300px;
+	padding:6%;
+	width: 200px;
+	height: 200px;
+	margin-left: 425px;
+	margin-top: 910px;
+	color: black;
+}
+div.tabb{
+	background-image: url('orel.png');
+	border-radius:300px;
+	padding:6%;
+	width: 200px;
+	height: 200px;
+	margin-left: 225px;
+	margin-top: 900px;
+	color: black;
+}
+div.qqq{
+	background-image: url('orel1.png');
+	border: solid 5pt black;
+	border-radius:300px;
+	padding:6%;
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	margin-top: 910px;
+	color: black;
+}
+img#pilt{
+	border-radius:300px;
+	width: 200px;
+	margin-top: 120px;
+	margin-left: 90px;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
