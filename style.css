@@ -47,6 +47,7 @@ div.tekst{
 	width: 200px;
 	height: 200px;
 	margin-left: 10px;
+	background-color: #cb42f4;
 }
 
 div.url{
@@ -189,4 +190,4 @@ footer {
 }
 /*1.Изменить Footer*/
 /*2.Изменить фон*/
-/*3.Изменить размер текста*/
+/*3.Изменить фон текста*/
