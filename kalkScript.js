@@ -1,15 +1,13 @@
-function hind	Kokku(){
+function hind Kokku(){
 	var kogus=document.getElementById("kogus");
 	var vastus=document.getElementById("hind");
 	var jook=document.getElementById("jook").value;
 	vastus.innerHTML="Sa valisid" + kogus.value + "saia ja "+
 	jook.value + "jook";
-	
 	vastus.innerHTML="Palun maksa "+(kogus.value*1.2+1).toFixed(2)+ " euro "+ "." + " Sa valisid " + jook + " jook ";
-
 }
 
-function valutakogus() {
+//function valutakogus() {
 	var valutakogus = document.getElementById("sumkalk"); 
 	var eur = document.getElementById("eur"); 
 	var valuta = document.getElementById("valuta"); 
@@ -19,7 +17,7 @@ function valutakogus() {
 	
 	
 	
-switch(valuta.value)
+//switch(valuta.value)
 	{
 		case "rub": kurs = 77.0113772; vatext = "rublid"; break;
 		case "eur": kurs = 1.0; vatext = "euro"; break;
