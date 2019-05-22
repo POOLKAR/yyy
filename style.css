@@ -1,4 +1,8 @@
 body{
+<<<<<<< HEAD
+=======
+	background-color: #82675d;
+>>>>>>> master
 	background-color: #c2d8fc;
 }
 div{
@@ -51,6 +55,7 @@ div.tekst{
 }
 
 div.url{
+}
 	background-image: url('orel.png');
 	border: solid 5pt red;
 	border-radius:300px;
@@ -190,4 +195,8 @@ footer {
 }
 /*1.Изменить Footer*/
 /*2.Изменить фон*/
+<<<<<<< HEAD
 /*3.Изменить фон текста*/
+=======
+/*3.Изменить размер текста*/ 
+>>>>>>> master
