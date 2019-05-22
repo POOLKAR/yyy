@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalkulaator</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="teststyle.css">
+  <script type="text/javascript" src="kalkScript.js">
+  </script>
+</head>
+<body>
+<h1>Kalkulaator</h1>
+<form>
+  Palun sisesta saiade kogus<input type="number" min="1" max="100" step="1" id="kogus">
+  Vali joogid:
+  <select id="jook">
+    <option>....</option>
+    <option value="Cola">Cola</option>
+    <option value="Fanta">Fanta</option>
+    <option value="Sprite">Sprite</option>
+    <option value="Still water">Still water</option>
+  </select>
+  <input type="button" value="OK" onclick="hindKokku()">
+  <div id="hind">Palun maksa ....</div>  
+</form>
+
+<h1>kalkulaator valuutade</h1>
+    <form>
+      Sisestage summa eurodes
+      <input type="number" min="1" max="1000" step="1" id="eur"> 
+      <select id="valuta">
+        <option value="rub">Rublid</option>
+        <option value="eur">Euro</option>
+        <option value="usd">Dollar</option>
+        <option value="sek">Kronid</option>
+
+      </select>
+      <input type="button" value="OK" onclick="valutakogus()";>
+      <div id="sumkalk">...</div>
+      
+      
+    </form>
+</body>
+</html>
