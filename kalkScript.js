@@ -9,7 +9,7 @@ function hindKokku(){
 
 }
 
-function valutakogus() {
+//function valutakogus() {
 	var valutakogus = document.getElementById("sumkalk"); 
 	var eur = document.getElementById("eur"); 
 	var valuta = document.getElementById("valuta"); 
@@ -19,7 +19,7 @@ function valutakogus() {
 	
 	
 	
-	switch(valuta.value)
+	//switch(valuta.value)
 	{
 		case "rub": kurs = 77.0113772; vatext = "rublid"; break;
 		case "eur": kurs = 1.0; vatext = "euro"; break;
